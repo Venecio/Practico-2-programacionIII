@@ -116,6 +116,7 @@ class numero {
 
     public function restoycociente($numero) {
         echo "Division de $numero <br> ";
+        $mostraralreves=0;
 
         while ($numero != 0) {
             $cociente = $numero % 10;
@@ -124,7 +125,7 @@ class numero {
             echo "Resto : $cociente <br>";
             $mostraralreves = $mostraralreves * 10 + $cociente;
         }
-        echo "El resultado es $mostraralreves";
+       echo "El resultado es $mostraralreves";
     }
 
 
